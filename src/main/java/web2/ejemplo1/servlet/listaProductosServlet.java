@@ -31,7 +31,6 @@ public class listaProductosServlet extends HttpServlet {
         
         resultado += "</table><a href=\"http://localhost:8080/ejemplo1/v1/productos\">Descargar catálogo de productos</a>";
         
-        resp.setCharacterEncoding("UTF-8");
         resp.getWriter().write(resultado);
  */
 
