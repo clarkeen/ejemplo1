@@ -30,7 +30,7 @@ public class listaProductosServlet extends HttpServlet {
         //resultado = productos.stream().map((item) -> String.format("<tr><td>\"%s\"</td><td>\"%s\"</td></tr>", item.get("nombre"), item.get("precio"))).reduce(resultado, String::concat);
         
         resultado += "</table><a href=\"http://localhost:8080/ejemplo1/v1/productos\">Descargar catálogo de productos</a>";
-        
+        resp.setCharacterEncoding("UTF-8");
         resp.getWriter().write(resultado);
  */
 
